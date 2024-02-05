@@ -18,6 +18,13 @@ function w = windReconstruction(V,alph,betaf,vi,Theta,omega,r_ADU)
 %
 % Inputs:
 %
+%   V       The pitot tube airspeed measurement
+%   alph    The anlge-of-attack vane angle in radians
+%   betaf   The flank angle vane angle in radians
+%   vi      The 3x1 inertial velocity vector
+%   Theta   The 3x1 array of Euler angles, [phi;thetalpsi]
+%   omega   The 3x1 angular velocity vector of the body frame
+%   r_ADU   The 3x1 position vector of the vanes in the body frame
 %  
 % Outputs:
 %
